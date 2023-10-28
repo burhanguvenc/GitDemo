@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -10,6 +11,9 @@ public class GitContBurhan {
 		System.out.println("What up?");
 		
 		WebDriver driver = new ChromeDriver();
+		driver.get("google.com");
+		driver.findElement(By.id("serch"));
+		driver.close();
 
 	}
 
