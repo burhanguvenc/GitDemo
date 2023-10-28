@@ -1,3 +1,5 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GitContBurhan {
 
@@ -5,6 +7,9 @@ public class GitContBurhan {
 		// TODO Auto-generated method stub
 		System.out.println("Burhan's work");
 		System.out.println("Burhan s codeeeeeeee");
+		System.out.println("What up?");
+		
+		WebDriver driver = new ChromeDriver();
 
 	}
 
